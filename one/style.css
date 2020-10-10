@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+    padding: 0px; 
+}
+.container {
+    width: 1000px;
+    margin: auto;    
+}
+header {
+    width: 100%;
+    height: 60px;
+    display: block;
+    background-color: white;
+    float: left;
+}
+header nav {
+    display: block;
+    float: right;
+    margin-top: 5px;
+}
+header nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+header nav ul li {
+    display: inline-block;    
+}
+header nav ul li a {
+    display: block;
+    color: #666666;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 10px;
+    text-decoration: none;
+
+}
+header nav ul li a:hover {
+    border-bottom: 2px solid red;
+
+}
+#promo {
+    color: white;
+    text-align: center;
+}
+
+.heading_main {
+ color: white;
+ text-align: center;
+}
+
+.button_one {
+   background: none; 
+   color: white;
+   border: 2px solid #000000;
+   text-align: center;
+   padding: 15px 32px;
+   font-size: 12px;
+
+}
+
+.button_two {
+    background-color: #00897b;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.logo {
+   color: red; 
+   float: left;
+   display: block;
+}
